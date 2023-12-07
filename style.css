@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin: 0;
+    margin: 0px;
 }
 
 #hero {
@@ -28,28 +28,26 @@ h1 span {
 font-weight: bold;
 }
 
-span {
+span, a {
     color:#FF9900;
 }
-p
+p, #footer
 {
     font-size: 14px;
     line-height: 28px;
     color:#7D7987;
 }
 
-a{
-    color: #FFA434;
-}
-  a + a {
+
+#footer  a + a {
 
     margin-left: 28px;
 }
 #line {
-    width: 568;
+    width: 568px;
     height: 0;
     border:1px solid #ECEFF2;
-    margin: 0 auto 8px;
+    margin: 0px auto 8px;
 }
 
 #balls {
